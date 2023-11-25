@@ -1,7 +1,7 @@
 import React from 'react';
-import { ScrollView, Pressable, View, Text, StyleSheet } from 'react-native';
+import {ScrollView, Pressable, View, Text, StyleSheet} from 'react-native';
 
-const ToDoList = ({ tasks }) => { 
+const ToDoList = ({tasks}) => {
   return (
     <ScrollView>
       {tasks.map((task, index) => (
